@@ -1,0 +1,20 @@
+{
+  "about": "Frozen settings for the base replay.",
+  "grammar": {
+    "shape": 1.0,
+    "event": 2.0,
+    "switch": 4.0,
+    "local": 0.5,
+    "live": 0.0
+  },
+  "fusion": {
+    "wt": 0.1,
+    "wd": 0.1
+  },
+  "stack": {
+    "kind": "fusion",
+    "beta": 20.0,
+    "brief": 0.5,
+    "local_mix": 0.25
+  }
+}

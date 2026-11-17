@@ -1,0 +1,7 @@
+{
+  "about": "Tactical frame T shows the same moment as broadcast frame B = (T - a) / (1 + b), for T in [from, to). The mapping fits the offsets between the provided ball tracks in 10-second windows. The offset slips about one frame over each half. The broadcast drops most of half-time: it leaves the first half at B 84796 and joins the second-half clock at B 86545, so tactical frames in between have no broadcast.",
+  "halves": [
+    { "from": 4014, "to": 88809, "a": 4013.904, "b": -6.1885e-06 },
+    { "from": 113465, "to": 191406, "a": 26921.591, "b": -1.65973e-05 }
+  ]
+}

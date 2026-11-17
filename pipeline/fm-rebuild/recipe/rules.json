@@ -1,0 +1,94 @@
+{
+  "about": "Frozen settings for the base replay.",
+  "rules": [
+    {
+      "stage": "spot_islands",
+      "config": {
+        "spot": 0.3,
+        "minimum": 15,
+        "maximum": 200,
+        "veto": 0.9,
+        "dead": 0.5,
+        "grow": 0.5,
+        "confidence": 0.5
+      }
+    },
+    {
+      "stage": "event_stops",
+      "config": {
+        "maximum": 500,
+        "score": 0.5,
+        "dead": 0.05
+      }
+    },
+    {
+      "stage": "trim_dead",
+      "config": {
+        "threshold": 0.1,
+        "maximum": 100,
+        "entry": false
+      }
+    },
+    {
+      "stage": "keeper_veto",
+      "config": {
+        "minimum": 10,
+        "dead": 0.7
+      }
+    },
+    {
+      "stage": "goal_clean",
+      "config": {
+        "score": 0.3,
+        "rest": 20,
+        "off": false,
+        "fringe": 50
+      }
+    },
+    {
+      "stage": "short_throw",
+      "config": {
+        "score": 0.5,
+        "maximum": 150
+      }
+    },
+    {
+      "stage": "brief_control",
+      "config": {
+        "score": 0.7,
+        "out": 0.5,
+        "maximum": 125,
+        "physical": false
+      }
+    },
+    {
+      "stage": "box_restart",
+      "config": {
+        "score": 0.3,
+        "rest": 10
+      }
+    },
+    {
+      "stage": "whistle_snap",
+      "config": {
+        "threshold": 0.2,
+        "cap": 100
+      }
+    },
+    {
+      "stage": "kickoff",
+      "config": {
+        "on": true
+      }
+    },
+    {
+      "stage": "foul_switch",
+      "config": {
+        "score": 0.5,
+        "before": 50,
+        "maximum": 150,
+        "mode": "old"
+      }
+    }
+  ]
+}

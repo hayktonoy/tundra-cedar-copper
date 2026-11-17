@@ -1,0 +1,31 @@
+{
+  "carrier": {
+    "temp": 0.3,
+    "spot": 0,
+    "gate": 0.1
+  },
+  "stoppage_start": {
+    "window": 60,
+    "level": 0.7,
+    "pad": 5,
+    "min_dead": 50
+  },
+  "lag": {
+    "team": 10,
+    "start": 15,
+    "restart": 20
+  },
+  "stage": {
+    "level": 0.7,
+    "agree": 0.5,
+    "near": 0.3,
+    "lag": 10,
+    "end_lag": 10,
+    "hold": 25,
+    "max_hold": 75,
+    "margin": 25,
+    "min_gap": 15,
+    "merge": true,
+    "tidy": true
+  }
+}

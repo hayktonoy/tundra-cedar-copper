@@ -1,0 +1,37 @@
+{
+  "about": "Frozen settings for the base replay.",
+  "decoder": {
+    "wq": 0.6,
+    "wc": 1.0,
+    "beta": 20.0,
+    "dfl": 0.7411257565352457,
+    "ext": 0.0,
+    "team": 0.25,
+    "video": 0.47128373216985525,
+    "bias": 2.0,
+    "scale": 0.2,
+    "cost": 80.0,
+    "event": 1.0,
+    "active": 0.0,
+    "launch": 0.0,
+    "goal": 2.0,
+    "edge": 0.0,
+    "tb": 0.0,
+    "tout": 0.0,
+    "trs": 0.0,
+    "tact": 0.0,
+    "tl": 0.0,
+    "tw": 0.0,
+    "tl2": 1.0,
+    "tw2": 1.0,
+    "student_dead": 0.0,
+    "student_team": 0.0
+  },
+  "bonus": {
+    "g_out": 20,
+    "g_drop": 80,
+    "h_kick": 10,
+    "h_setp": 3.0,
+    "h_acc": 5
+  }
+}
